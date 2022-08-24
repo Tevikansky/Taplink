@@ -17,7 +17,9 @@ font-family: 'Roboto', sans-serif;
 .container{
   
 max-width: 318px;
+max-height: 576px;
 margin: auto;
+margin-bottom: 120px;
 }
 .header {
   max-width: 416px;
@@ -100,7 +102,7 @@ color: #454545;
 }
 .card {
   margin-top: 17px;
-  margin-bottom: 120px;
+  
   background: #FFFFFF;
   box-shadow: 0px 0px 30px rgba(85, 85, 85, 0.25);
   border-radius: 10px;
@@ -141,4 +143,19 @@ color: #454545;
 }
 .button.hh {
   background-color: #d6001c;
+}
+.ee {
+ display: flex;
+ justify-content: center;
+ margin-top: 100px;
+}
+.text-add{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.eegg {
+  cursor: text;
+  margin-top: 7px;
 }
